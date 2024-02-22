@@ -1,0 +1,80 @@
+.card-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#card-id {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#card-id .contact-info {
+  margin-left: 5px;
+}
+
+#card-namelastname {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-emailnumber {
+  margin-top: 16px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-section {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.delete-btn {
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  align-self: self-end;
+  background-color: rgb(241, 45, 45);
+  border-radius: 8px;
+  border: 0;
+  margin-top: 16px;
+}
+
+.delete-btn:hover {
+  transition: 0.3s;
+  background-color: rgb(243, 91, 91);
+}
+
+p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.contact-info {
+  font-size: 24px;
+  color: rgb(228, 228, 228);
+  margin-bottom: 32px;
+}
+
+#desc-btn {
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#desc-btn p {
+  inline-size: 400px;
+  word-break: break-all;
+  text-align: start;
+}

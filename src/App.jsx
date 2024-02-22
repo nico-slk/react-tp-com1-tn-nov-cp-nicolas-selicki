@@ -1,4 +1,5 @@
 import './App.css';
+import { Main } from './components/Main';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
       <h1 className="">
         React TP
       </h1>
+      <Main />
     </>
   );
 }

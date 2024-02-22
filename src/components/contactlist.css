@@ -1,0 +1,27 @@
+#contactlist-container {
+  min-height: 200px;
+}
+
+#contactcard-container {
+  width: 100%;
+  min-height: 400px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border: solid 1px rgb(100, 100, 100);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(59, 59, 59);
+  color: rgb(199, 199, 199);
+  box-shadow: 10px 10px 90px -24px rgba(130, 130, 130, 0.3);
+  transition: 0.3s;
+}
+
+#contactcard-container:hover {
+  transition: 0.3s;
+  background-color: rgb(66, 66, 66);
+  color: rgb(238, 238, 238);
+  box-shadow: 10px 10px 90px 0px rgba(130, 130, 130, 0.3);
+}
