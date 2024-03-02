@@ -5,9 +5,8 @@ export const ContactList = ({ contacts, deleteContactFn }) => {
 
   return (
     <div id='contactlist-container'>
-      {console.log(contacts)}
       {
-        contacts && contacts.map(contact => <div id='contactcard-container' key={contact.id}>
+        contacts && contacts.map(contact => <div key={contact.id} id='contactcard-container' >
           <ContactCard contactId={contact.id} contact={contact} deleteContactFn={deleteContactFn} />
         </div>
         )

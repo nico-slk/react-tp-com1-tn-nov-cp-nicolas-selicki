@@ -1,0 +1,25 @@
+* {}
+
+.search-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar {
+  transition: all 0.4s;
+  padding: 10px;
+  border-radius: 8px;
+  width: 95%;
+  border: solid 1px rgb(100, 100, 100);
+  box-sizing: border-box;
+}
+
+.search-bar:focus {
+  transition: ease-in-out 0.4s;
+  border: solid 1px white;
+  box-sizing: border-box;
+}

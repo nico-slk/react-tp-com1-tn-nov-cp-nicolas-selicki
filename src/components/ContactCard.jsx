@@ -17,7 +17,7 @@ export const ContactCard = ({ contactId, contact, deleteContactFn }) => {
         <p>Numero: </p><p className='contact-info'>{contact.number}</p>
       </div>
       <div id='desc-btn'>
-        <p>Descricion: {contact.description}</p>
+        <p>Descripcion: {contact.description}</p>
         <button type="button" className='delete-btn' onClick={() => deleteContactFn(contactId)}><FaTrash /></button>
       </div>
     </>
